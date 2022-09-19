@@ -15,7 +15,6 @@
     "clean": "rimraf lib/",
     "tsc": "tsc -b .",
     "build": "rollup -c",
-    "prepare": "install-peers && husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix ",
     "prepublishOnly": "yarn clean && yarn build",
     "release": "standard-version",
